@@ -211,7 +211,7 @@ def setDriver():
     # proxy_options['http'] = SOCKS_PROXY
     # proxy_options['https'] = SOCKS_PROXY
 
-    seleniumwire_options['proxy'] = proxy_options
+    # seleniumwire_options['proxy'] = proxy_options #uncomment for proxy
     # prox = Proxy()
     # prox.proxy_type = ProxyType.MANUAL
     # prox.socks_proxy = SOCKS_PROXY
